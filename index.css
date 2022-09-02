@@ -1,0 +1,108 @@
+
+
+#title{
+    text-align: start;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    text-align: center;
+}
+
+h1{
+    text-align: left;
+    margin:auto;
+    margin-left: 20px;
+}
+
+
+.login{
+    transform:translate(0%,50%);
+    width: 350px;
+    height: 230px;
+    border: 1px solid lightgrey;
+    margin:auto;
+}
+
+
+form label {
+    padding: 100px;
+    margin-left: -30%;
+
+}
+
+
+input{
+    margin-top:5px;
+    width:90%;
+}
+
+
+
+input[type=button]{
+    margin-top:20px;
+    background-color: rgb(239, 199, 76);
+    border-color:red;
+    border-radius: 2px;
+    width:93%;
+    margin-bottom: 20px;
+}
+
+#forgot{
+    color:rgb(57, 31, 255);
+    text-decoration: none;
+}
+
+#help{
+    color:rgb(57, 31, 255);
+    text-decoration: none;
+}
+#new::before{
+    content:" ";
+    display: block;
+    width: 90px;
+    height:2px;
+    background: rgb(145, 144, 144);
+    position:absolute;
+    right: 540px;
+    top:395px
+}
+#new::after{
+    content:" ";
+    display: block;
+    width: 90px;
+    height:2px;
+    background: rgb(145, 144, 144);
+    position:absolute;
+    left: 540px;
+    top:395px
+}
+#new{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: none;
+    content:" ";
+    display: block;
+    color:rgb(145, 144, 144)
+}
+
+#create{
+    width: 350px;
+}
+#Conditions{
+    text-decoration: none;
+    color:rgb(57, 31, 255);
+}
+#Privacy{
+    text-decoration: none;
+    color:rgb(57, 31, 255);
+}
+
+#Last{
+    text-decoration: none;
+    color:rgb(57, 31, 255);
+}
+
+p{
+    font-size: small;
+}
